@@ -30,9 +30,9 @@
 
 html {
     font-size: var(--font-size);
-    font-family:var(--font-family);
-    font-weight:400;
-    line-height:1.2;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 a {
@@ -143,47 +143,6 @@ a {
   padding-bottom: 50px;
 }
 
-.about {
-  padding-top:112px;
-  padding-bottom:90px;
-  background-color: var(color--light);
-}
-
-.about__title {
-  color: var(--color-black);
-  font-size: 2rem;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom:39px;
-
-}
-
-.about__description {
-  text-align:center;
-  color:var(--color-secondary);
-  line-height:var(--line-height-lg);
-}
-
-.process {
-  padding-top:112px;
-  padding-bottom:100px;
-  background-color: var(--color-gray-light);
-
-}
-
-.process__title {
-  color: var(--color-black);
-  font-size: 2rem;
-  font-weight:500;
-  text-align: center;
-  margin-bottom:39px;
-
-}
-.process__description {
-  text-align: center;
-  color:var(--color-secondary);
-  line-height:var(--line-height-lg);
-}
 
 .experience {
   background-color: var(--color-primary);
