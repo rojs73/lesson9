@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Site</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class = "header">
+
+  <header class ="header">
     <div class="container">
-      <nav class="navbar"></nav>
+
+
+      <nav class="navbar">
         <ol class="navbar__list">
           <li class="navbar__item">
             <a class="navbar__link navbar__link--active" href="">ГЛАВНАЯ</a>
           </li>
           <li class="navbar__item">
-            <li class="navbar__item">
-              <a class="navbar__link" href="">ОБ АВТОРЕ</a>
-            </li>
-            <li class="navbar__item">
-              <a class="navbar__link" href="">РАБОТЫ</a>
-            </li>
-            <li class="navbar__item">
-              <a class="navbar__link" href="">ПРОЦЕСС</a>
-            </li>
+            <a class="navbar__link" href="">ОБ АВТОРЕ</a>
           </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="">РАБОТЫ</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="">ПРОЦЕСС</a>
+          </li>
+          <li class="navbar__item">
             <a class="navbar__link" href="">КОНТАКТЫ</a>
           </li>
       </ol>
-      <div class="content">
-        <h1 class="content__title">Дизайн и верстка</h1>
-        <p class="content__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <a class="content__link" href="">НАПИСАТЬ МНЕ</a>
+     </nav>
+
+     <div class="content">
+      <h1 class="content__title">Дизайн и верстка</h1>
+      <p class="content__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      <a class="content__link" href="">НАПИСАТЬ МНЕ</a>
       </div>
+
     </div>
   </header>
+
+  <main>
+
+    <section class="about">
+      <div class="container container--sm">
+        <h2 class="about__title">Обо мне</h2>
+        <p class="about__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container container--sm">
+        <h2 class="process__title">Обо мне</h2>
+        <p class="process__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 
