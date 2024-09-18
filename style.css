@@ -236,3 +236,88 @@ a {
   font-size: 0.8125rem;
   line-height: var(--line-height-lg);
 }
+
+
+@media (max-width: 1024px) {
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .content__title {
+    font-size: 2.5rem;
+  }
+
+  .experience__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-item {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .experience-item__description {
+    align-items: center;
+  }
+
+  .video__iframe {
+    height: 400px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar__list {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-md);
+  }
+
+  .content__title {
+    font-size: 2rem;
+  }
+
+  .content__description {
+    font-size: 0.875rem;
+  }
+
+  .content__link {
+    min-width: 180px;
+    min-height: 50px;
+  }
+
+  .experience__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-item__description {
+    text-align: center;
+  }
+
+  .experience-item__image {
+    order: 0;
+  }
+
+  .video__iframe {
+    height: 300px;
+  }
+
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+}
+
